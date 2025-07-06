@@ -127,11 +127,10 @@ private:
         glm::vec3 color;
     };  
     
-    // Вершины треугольника
     const std::vector<Vertex> vertices = {
-        {{0.0f, -0.5f}, {1.0f, 0.0f, 0.0f}},  // верхняя вершина - красная
-        {{0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},   // правая нижняя - зеленая
-        {{-0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}}   // левая нижняя - синяя
+        {{0.0f, -0.5f}, {1.0f, 0.0f, 0.0f}}, 
+        {{0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},  
+        {{-0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}}   
     };
 
     void initWindow() { 
@@ -706,7 +705,6 @@ private:
 
     commandBuffer->beginRendering(renderingInfo);
     
-    // ДОБАВЬТЕ ЭТИ КОМАНДЫ РИСОВАНИЯ:
     commandBuffer->bindPipeline(vk::PipelineBindPoint::eGraphics, **graphicsPipeline);
     
     vk::Viewport viewport{};
