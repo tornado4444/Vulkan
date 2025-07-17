@@ -1,2 +1,2 @@
 # Learning Vulkan. 
-I start learn Vulkan. So, 
+I start learn Vulkan. So
