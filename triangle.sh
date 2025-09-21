@@ -1,1 +1,1 @@
-slangc /home/tornado/Desktop/Vulkan-Triangle/shader/shader.slang -target spirv -o /home/tornado/Desktop/Vulkan-Triangle/shaders/slang.spv
+slangc /home/tornado/Desktop/Vulkan/shader/shader.slang -target spirv -o /home/tornado/Desktop/Vulkan/shader/slang.spv
